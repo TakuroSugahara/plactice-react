@@ -1,11 +1,33 @@
 import React from 'react';
 
-function App() {
+// function App() {
+// return (
+// <div>
+// <label htmlFor="bar">bar</label>
+// <input
+// type="text"
+// onChange={e => {
+// console.log('clicked input ');
+// }}
+// />
+// </div>
+// );
+// }
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello, React!</h1>
+    <div>
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
     </div>
   );
-}
+};
+const Cat = () => {
+  return <p>Meow!</p>;
+};
 
 export default App;
